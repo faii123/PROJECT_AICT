@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Feedback page</title>
+	  <script>
+  
+        function showAlert() {
+            alert("Thankyou for your Feedback! Please visit our website again.");
+        }
+    </script>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	 <style> 
+	 	a:hover{
+	color:red;
+	}
+	       table{
+	 width:50%;
+	 border-collapse:collapse;
+	 text-align:center;
+	 margin: 20px auto;
+	 border:1px solid black;
+	 }
+	 
+	 th,td{
+	 padding:5px;
+	 text-align:center;
+	  border:1px solid black;
+	 }
+	 
+	 th{
+            background-color: #f4f4f4;
+	 }
+	 .footer{
+	 border:2px solid black;
+	 }
+	 .navbar
+	{
+	background-color:#f4f4f4;
+	
+	}
+	.navbar ul{
+	overflow:auto;
+	}
+	.navbar li{
+	float:left;
+	list-style:none;
+	padding: 10px 50px;
+	}
+	body{
+	background-color:tan;
+	color:black;
+    
+	}
+	 </style>
+</head>
+<body>
+ <header> 
+  <nav class="navbar">
+         <ul>
+		        <li><a href="intro.html">INTRODUCTION</li></a>
+		        <li><a href="list.html">MOVIES LIST(1990`s)</li></a>
+		        <li><a href="list2.html">MOVIES LIST(2000`s)</li></a>
+		        <li><a href="feedback.html">FEEDBACK</li></a>
+		 </ul>
+  </nav>
+  </header>
+<h2 style="text-align:center";> Give us your feedback!</h2>
+
+ <hr>
+<h3>Which movie is your all time favourite?</h3>
+  <table>
+  <thead>
+  <tr>
+     <th>MOVIES</th>
+	 <th>IMDB</th>
+	 <th>SELECT</th>
+  </tr>
+  </thead>
+ <tr> 
+     <td>Wings</td>
+	 <td>7.5</td>
+	 <td><input type="radio" name="mymovie"> </td>
+  </tr>
+ <tr>
+     <td>Gandhi</td>
+	 <td>8</td>
+	 <td><input type="radio" name="mymovie"> </td>
+ </tr>
+ <tr>
+     <td>The last days</td>
+	 <td>7.9</td>
+	 <td><input type="radio" name="mymovie"> </td>
+ </tr>
+ <tr>
+     <td>Elizabeth</td>
+	 <td>7.4</td>
+	 <td><input type="radio" name="mymovie"> </td>
+ </tr>
+ <tr>
+     <td>Gladiator</td>
+	 <td>7.5</td>
+	 <td><input type="radio" name="mymovie"> </td>
+ </tr>
+ <tr>
+     <td>Avatar</td>
+	 <td>7.9</td>
+	 <td><input type="radio" name="mymovie"> </td>
+ </tr>
+ <tr>
+     <td>Slumdog Millionaire</td>
+	 <td>8</td>
+	 <td><input type="radio" name="mymovie"> </td>
+ </tr>
+ <tr>
+     <td>inside out</td>
+	 <td>8.1</td>
+	 <td><input type="radio" name="mymovie"> </td>
+ </tr>
+ <tr>
+     <td>Parasite</td>
+	 <td>8.5</td>
+	 <td><input type="radio" name="mymovie"> </td>
+ </tr>
+	 <tr>
+     <td>Oppenheimer</td>
+	 <td>8.3</td>
+	 <td><input type="radio" name="mymovie"> </td>
+ </tr>
+  </table>
+<form>
+<div>
+ NAME: <input type="text">
+ </div> <br>
+ <div>
+  EMAIL: <input type="text">
+
+ </div> <br>
+ <div>
+ DATE: <input type="date">
+	</div><br>
+ <div>
+  AGE: <input type="number" min="0" max="100">
+	</div><br>
+	<div>
+GENDER:<BR> Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender">
+</div><br>
+<div>
+  <button type="button" onclick="showAlert()">Submit</button>
+ <input type="RESET">
+</div>
+
+
+
+	
+
+   </form>
+   <div class="footer">
+<h2 style="text-align:center";> CONTACT US!</h2>
+<p style="font-size:20px ; text-align:center;" >If you have any questions, feel free to email us at <br>
+<i class="fa-solid fa-envelope"></i>
+        <a href="mailto:website123@gmail.com"> website123@gmail </a>
+		
+    </p>
+<p style="font-size:20px ; text-align:center;" >Or call us on <br>
+<i class="fa-solid fa-phone"></i>
+<a href="tel:+1234567890">+1 (234) 567-890</a>
+ </p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
